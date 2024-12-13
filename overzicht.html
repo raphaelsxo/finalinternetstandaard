@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <!--Alle documentatie is toegevoegd door chatgpt.com met als prompt: Voeg documentatie toe aan deze code die alles uitlegd, ik heb mijn code gekopieerd en geplakt en daarna hebben zij de comments eraan toegevoegd-->
+    <!-- De character encoding is ingesteld op UTF-8 om ervoor te zorgen dat speciale tekens zoals accenten correct worden weergegeven -->
+    <meta charset="UTF-8" />
+
+    <!-- De meta viewport tag zorgt ervoor dat de pagina goed schaalt op verschillende apparaten zoals mobiele telefoons. De breedte is ingesteld op de schermbreedte van het apparaat en de initiële zoomfactor is 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- De titel van de pagina die in het browser tabblad wordt weergegeven -->
+    <title>Afleveringen</title>
+
+    <!-- Link naar het externe CSS-bestand voor de opmaak van de pagina -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Begin van de header sectie met logo en navigatiebalk -->
+    <header>
+      <!-- Afbeelding van het logo van de podcast met een alt tekst voor toegankelijkheid -->
+      <img class="ninjapng" src="images/ricews.png" alt="ninjapng" />
+
+      <!-- Navigatiebalk met een lijst van links naar andere pagina's op de website -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <!-- Link naar de homepagina -->
+          <li><a class="currentPage" href="overzicht.html">Overzicht</a></li>
+          <!-- Link naar de overzichtspagina, de huidige pagina heeft een speciale klasse voor visuele aanduiding -->
+          <li><a href="over-ons.html">Over ons</a></li>
+          <!-- Link naar de 'Over ons' pagina -->
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Begin van de hoofdinhoud van de pagina -->
+    <main>
+      <!-- Titel die aangeeft dat deze pagina een overzicht van afleveringen bevat -->
+      <h1 class="overzicht">Afleveringen</h1>
+
+      <!-- Sectie die alle afleveringen bevat, elke aflevering is gegroepeerd in een <article> voor semantisch correcte structuur -->
+      <section>
+        <!-- Aflevering 1 -->
+        <article class="flex-horizontaal">
+          <!-- Afbeelding van de aflevering met een specifieke breedte van 150px -->
+          <figure>
+            <img src="images/japan.jpg" style="width: 150px" alt="japan" />
+          </figure>
+          <div>
+            <!-- Titel van de aflevering -->
+            <h2>Aflevering 1 "De smaken van Japan"</h2>
+            <!-- Korte beschrijving van de aflevering -->
+            <p>
+              Van sushi en tempura tot de kunst van ramen – een diepgaande reis
+              door de rijke culinaire tradities van Japan. Ontdek wat deze
+              gerechten zo bijzonder maakt en waarom Japan het ultieme paradijs
+              is voor foodies.
+            </p>
+            <!-- Duur van de aflevering -->
+            <p>22 nov. | 45 min. 27 sec.</p>
+            <!-- Button om de aflevering af te spelen (kan verder gekoppeld worden aan een audio- of videospeler) -->
+            <button>Play</button>
+          </div>
+        </article>
+
+        <!-- Aflevering 2 -->
+        <article class="flex-horizontaal">
+          <figure>
+            <img src="images/belgie.jpg" style="width: 150px" alt="belgie" />
+          </figure>
+          <div>
+            <h2>Aflevering 2 "De Buurlanden van Nederland"</h2>
+            <p>
+              Zonder ver te reizen, kun je de charme van België en Duitsland
+              ontdekken. Van Belgische chocolade en bier tot de historische
+              steden van Duitsland – wat maakt onze buren zo interessant?
+            </p>
+            <p>29 nov. | 44 min. 34 sec.</p>
+            <button>Play</button>
+          </div>
+        </article>
+
+        <!-- Aflevering 3 -->
+        <article class="flex-horizontaal">
+          <figure>
+            <img
+              src="images/water.jpg"
+              style="width: 150px"
+              alt="Zuid Oost Azie"
+            />
+          </figure>
+          <div>
+            <h2>Aflevering 3 "Zuid-Oost Azie"</h2>
+            <p>
+              Een regio vol contrasten en avontuur: ontdek de drijvende markten
+              van Thailand, de tempels van Angkor Wat in Cambodja, en de serene
+              stranden van Bali. Dit is waarom Zuid-Oost Azië op ieders
+              bucketlist staat.
+            </p>
+            <p>6 dec. | 42 min. 56 sec.</p>
+            <button>Play</button>
+          </div>
+        </article>
+
+        <!-- Aflevering 4 -->
+        <article class="flex-horizontaal">
+          <figure>
+            <img src="images/brug.jpg" style="width: 150px" alt="chinabrug" />
+          </figure>
+          <div>
+            <h2>Aflevering 4 "De 7 wonderen van de wereld"</h2>
+            <p>
+              In deze aflevering reis je langs de 7 moderne wereldwonderen. Van
+              de oude stad Machu Picchu en het Colosseum in Rome tot de
+              prachtige Taj Mahal in India. Ontdek de verhalen achter de Grote
+              Muur van China, de verborgen stad Petra, het standbeeld Christus
+              de...
+            </p>
+            <p>13 dec. | 45 min. 16 sec.</p>
+            <button>Play</button>
+          </div>
+        </article>
+
+        <!-- Aflevering 5 -->
+        <article class="flex-horizontaal">
+          <figure>
+            <img
+              src="images/noorderlichten.jpg"
+              style="width: 150px"
+              alt="noorderlicht"
+            />
+          </figure>
+          <div>
+            <h2>Aflevering 5 "Onder de Noorderlijke Hemel"</h2>
+            <p>
+              Het noorderlicht boven Noorwegen, Zweden en Finland. Van de
+              indrukwekkende fjorden in Noorwegen tot de betoverende bossen van
+              Zweden en de magische Laplandse natuur in Finland – luister naar
+              verhalen en tips voor het beste uitzicht op dit spectaculaire
+              natuurverschijnsel.
+            </p>
+            <p>20 dec. | 44 min. 47 sec.</p>
+            <button>Play</button>
+          </div>
+        </article>
+
+        <!-- Aflevering 6 -->
+        <article class="flex-horizontaal">
+          <figure>
+            <img
+              src="images/zuidoostazie.jpg"
+              style="width: 150px"
+              alt="aziatische streetfood"
+            />
+          </figure>
+          <div>
+            <h2>Aflevering 6 "De kunst van Aziatische streetfood"</h2>
+            <p>
+              Waarom is streetfood in Azië meer dan eten? Van de saté van
+              Indonesië tot de pho in Vietnam – dit is een culinaire cultuur die
+              je niet mag missen.
+            </p>
+            <p>27 dec. | 43 min. 36 sec.</p>
+            <button>Play</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Begin van de footer sectie met links en copyrightinformatie -->
+    <footer class="footer">
+      <p>Home</p>
+      <!-- Link naar de homepagina -->
+      <p>Contact</p>
+      <!-- Link naar de contactpagina -->
+      <p>About</p>
+      <!-- Link naar de over ons-pagina -->
+      <p class="footer-text">© 2024 Rice Ninjas.</p>
+      <!-- Copyrightinformatie -->
+    </footer>
+  </body>
+</html>

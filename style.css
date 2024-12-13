@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0 auto;
+  min-width: 10em;
+  max-width: 80vw;
+  background-color: rgb(0, 0, 0);
+}
+
+nav a {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 1em;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+nav a:active {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transform: translateY(0.6em);
+}
+
+.currentPage {
+  background-color: rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: "Luminari";
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.872);
+}
+
+header {
+  padding-top: 2em;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4em;
+  color: rgb(255, 255, 255);
+}
+
+main img {
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 0.5em;
+}
+
+.ninjapng {
+  width: 100px;
+}
+
+footer img {
+  border: 5px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+.podcasttest {
+  font-family: "Luminari";
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  background: #000000;
+}
+
+.header {
+  padding-top: 30px;
+  color: #444;
+  font-size: 20px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.teams img {
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.about {
+  margin: 20px 0;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.flex-horizontaal {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+.overzicht {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.main {
+  background-color: white;
+}
+
+.video {
+  display: flex; /* Flexbox inschakelen */
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  margin: 0 auto; /* Dit is niet strikt noodzakelijk meer, maar kan handig zijn voor extra ruimte rondom */
+}
+
+.tekst {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+
+.recent-episode {
+  background-color: white;
+}
+.maintext {
+  color: black;
+}
+.aflevering2main {
+  color: black;
+}
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5em 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-text {
+  font-size: 1em;
+  margin: 0;
+  padding: 0.5em 0;
+}
+.recenteaflevering {
+  color: white;
+}
+.maindate {
+  color: #000;
+}
+.waargaattover {
+  font-family: "Luminari";
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.wijzijn {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 4em;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.waargaattovertekst {
+  color: #ffffff;
+}
+.waaromriceninjas {
+  font-family: "Luminari";
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.ontdekken {
+  color: #ffffff;
+}
+.fashion {
+  color: #ffffff;
+}
+.inspiratie {
+  color: #ffffff;
+}
+.Dezepodcast {
+  font-weight: bold;
+  color: #fff;
+}
+.onzemissie {
+  font-family: "Luminari";
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.tekstonzemissie {
+  color: #ffffff;
+}
+.hidden-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.name {
+  color: #fff;
+  margin-top: 2em;
+  font-size: x-large;
+}

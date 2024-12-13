@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <!--Alle documentatie is toegevoegd door chatgpt.com met als prompt: Voeg documentatie toe aan deze code die alles uitlegd, ik heb mijn code gekopieerd en geplakt en daarna hebben zij de comments eraan toegevoegd-->
+    <!-- Stelt de tekencodering in op UTF-8, wat ervoor zorgt dat alle tekens correct worden weergegeven, inclusief speciale tekens zoals é, ü, enz. -->
+    <meta charset="UTF-8" />
+
+    <!-- Zorgt ervoor dat de pagina zich goed aanpast aan verschillende schermgroottes, bijvoorbeeld op mobiele apparaten. Het zorgt ervoor dat de inhoud niet te groot of te klein wordt weergegeven. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- De titel van de webpagina, die zichtbaar is in het tabblad van de browser. -->
+    <title>Home</title>
+
+    <!-- Verbindt het externe CSS-bestand (style.css) met de HTML-pagina, zodat de opmaak wordt toegepast op de inhoud van de pagina. -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- De header van de pagina bevat meestal de navigatie en logo van de website. Het is de bovenste sectie van de pagina. -->
+    <header>
+      <!-- Deze afbeelding is een visuele representatie van het logo van de website. De alt-tekst helpt gebruikers die de afbeelding niet kunnen zien (bijvoorbeeld door een schermlezer) te begrijpen wat de afbeelding is. -->
+      <img class="ninjapng" src="images/ricews.png" alt="ninjajpg" />
+
+      <!-- De navigatiebalk maakt het voor gebruikers mogelijk om gemakkelijk door de verschillende pagina’s van de website te navigeren. -->
+      <nav>
+        <ul>
+          <!-- Dit is de lijst van navigatielinks. De 'currentPage' klasse markeert de actieve pagina, zodat de gebruiker weet welke pagina hij of zij momenteel bekijkt. -->
+          <li><a class="currentPage" href="index.html">Home</a></li>
+          <li><a href="overzicht.html">Overzicht</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Het hoofdinformatiegebied van de pagina waarin de belangrijkste inhoud wordt geplaatst. -->
+    <main class="main">
+      <!-- De hoofdtekst van de pagina, meestal een titel of koptekst die de gebruiker introduceert tot de inhoud van de pagina. -->
+      <h1>If it ain't rice it ain't nice</h1>
+
+      <!-- Deze sectie bevat een ingesloten video. -->
+      <section>
+        <!-- PROMPT: "Kan je zorgen dat dit deel van de section semantisch is zonder dat het mijn code hindert" De verborgen kop is toegevoegd voor validatiedoeleinden en wordt niet visueel weergegeven. Dit zorgt ervoor dat de W3C-standaarden voor toegankelijkheid en zoekmachineoptimalisatie worden nageleefd. -->
+        <h2 class="hidden-heading">Embedded Video</h2>
+
+        <!-- De iframe tag wordt gebruikt om de video in te sluiten van een externe bron (in dit geval YouTube). Het stelt de gebruiker in staat om de video direct op de pagina af te spelen. -->
+        <iframe
+          class="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/r6ScrMwtXfI"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Deze sectie introduceert een artikel over de podcast. -->
+    <section>
+      <article>
+        <!-- De titel van het artikel. Dit geeft een korte uitleg over de inhoud die volgt. -->
+        <h2 class="podcasttest">Waarom onze podcast</h2>
+        <!-- De paragraaf geeft gedetailleerde uitleg over de podcast en waarom het de moeite waard is om te luisteren. -->
+        <p class="tekst">
+          Welkom bij RICE NINJAS, jouw paspoort naar een ontspannen reis rond de
+          wereld! Met gezellige gesprekken, verrassende verhalen en praktische
+          tips brengen we een vleugje avontuur naar jouw dag. Of je nu onderweg
+          bent, lekker thuis zit of gewoon iets nieuws wilt ontdekken, wij
+          zorgen voor een mix van humor, inspiratie en inzichten. Dus zet je
+          oortjes op, leun achterover, en reis met ons mee!
+        </p>
+      </article>
+    </section>
+
+    <!-- Deze sectie bevat informatie over de meest recente aflevering van de podcast. -->
+    <section>
+      <article>
+        <!-- Dit is de kop van het artikel dat aangeeft dat het de meest recente aflevering betreft. -->
+        <h3 class="recenteaflevering">Meest recente aflevering</h3>
+        <!-- De flex-horizontaal klasse wordt gebruikt om de inhoud naast elkaar weer te geven, zoals de afbeelding en de tekst. -->
+        <div class="flex-horizontaal recent-episode">
+          <!-- Het afbeeldingsgedeelte toont een visueel element gerelateerd aan de aflevering. De afbeelding zelf heeft een alt-tekst die de inhoud beschrijft voor toegankelijkheid. -->
+          <div>
+            <img
+              src="images/zuidoostazie.jpg"
+              style="width: 175px; margin: -2px; position: relative; top: 2px"
+              alt="zuidoostazie"
+            />
+          </div>
+          <!-- Het tekstgedeelte bevat de titel van de aflevering, een korte beschrijving en de duur. -->
+          <div>
+            <h3 class="aflevering2main">
+              Aflevering 6 ""De kunst van Aziatische streetfood"
+            </h3>
+            <p class="maintext">
+              Waarom is streetfood in Azië meer dan eten? Van de saté van
+              Indonesië tot de pho in Vietnam – dit is een culinaire cultuur die
+              je niet mag missen.
+            </p>
+            <p class="maindate">27 dec. | 43 min. 36 sec.</p>
+            <!-- De knop geeft de gebruiker de mogelijkheid om de aflevering af te spelen. -->
+            <button>Play</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Voettekst van de pagina, die vaak basisinformatie over de website bevat, zoals copyright en extra links. -->
+    <footer class="footer">
+      <!-- Deze tekst kan als navigatie dienen of verwijzen naar belangrijke secties van de website. -->
+      <p>Home</p>
+      <p>Contact</p>
+      <p>About</p>
+
+      <!-- De copyrightinformatie die aangeeft wie de rechten op de inhoud van de website bezit. -->
+      <p class="footer-text">© 2024 Rice Ninjas.</p>
+    </footer>
+  </body>
+</html>
